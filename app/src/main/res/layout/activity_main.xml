@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgimage"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="198dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="Username"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:textColor="#000000" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="198dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:minHeight="48dp"
+        android:textColor="#000000" />
+
+    <Button
+        android:id="@+id/login"
+        android:layout_width="198dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="#23FB8C00"
+        android:foregroundGravity="left"
+        android:text="Login"
+        android:textColor="#000000" />
+
+    <TextView
+        android:id="@+id/wecome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Welcome"
+        android:textColor="#000000"
+        android:textSize="30sp" />
+
+</LinearLayout>
